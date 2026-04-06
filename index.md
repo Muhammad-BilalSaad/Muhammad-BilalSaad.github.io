@@ -1,21 +1,28 @@
 ---
 layout: default
-title: "Home"
+title: Home
 ---
 
-# Welcome to My Portfolio & Blog
+<section class="hero">
+  <img src="/assets/images/profile.jpg" alt="Muhammad Bilal Saad" class="profile-img">
+  <h2>Hello, I'm Muhammad Bilal Saad</h2>
+  <p>Student, Developer, and Tech Enthusiast</p>
+</section>
 
-Hello! I am **Muhammad Bilal Saad**, and this is my personal portfolio and blog.  
-
-## Pages
-- [About Me](/about)
-- [My Journey](/journey)
-- [Contact Me](/contact)
-
----
-
-## Latest Articles
-{% for post in site.posts limit:5 %}
-### [{{ post.title }}]({{ post.url }})
-{{ post.excerpt }}
-{% endfor %}
+<section class="cards">
+  <div class="card">
+    <h3>About Me</h3>
+    <p>Learn about my skills, education, and achievements.</p>
+    <a href="/about.md" class="btn">Explore</a>
+  </div>
+  <div class="card">
+    <h3>My Journey</h3>
+    <p>See my university milestones and projects timeline.</p>
+    <a href="/journey.md" class="btn">Explore</a>
+  </div>
+  <div class="card">
+    <h3>Contact Me</h3>
+    <p>Get in touch or follow me on social media.</p>
+    <a href="/contact.md" class="btn">Contact</a>
+  </div>
+</section>
