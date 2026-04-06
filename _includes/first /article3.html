@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Article 3</title>
+<style>
+body{background:#0f172a;color:white;font-family:Arial;padding:30px;}
+h1{color:#38bdf8;}
+button{background:red;color:white;padding:10px;border:none;}
+.content{display:none;line-height:1.7;margin-top:15px;}
+</style>
+</head>
+<body>
 
+<h1>My First Programming Experience</h1>
+<button onclick="toggleArticle('a3')">Read Article</button>
+
+<div id="a3" class="content">
+<p>
+My first programming experience was both exciting and challenging. When I entered university, I had very little knowledge about coding. I had heard about programming languages but never really understood how they worked. On the first day of my programming class, I felt confused but also curious to learn something new.
+</p>
+
+<p>
+Our teacher started with basic concepts such as variables, data types, and simple logic building. At first, everything seemed difficult because it was a completely new world for me. Writing even a small program required a lot of thinking and understanding. However, as the days passed, I started getting comfortable with the basics.
+</p>
+
+<p>
+I remember writing my first simple program that displayed a message on the screen. It felt like a big achievement for me. Even though it was a very small task, it gave me confidence that I could learn programming step by step. Slowly, I started understanding how logic works and how problems can be solved using code.
+</p>
+
+<p>
+One of the most interesting parts of programming is problem-solving. Every task requires thinking, planning, and then implementing the solution. Sometimes I faced errors and bugs, which made me frustrated. But those mistakes helped me learn more. I realized that errors are part of learning and improving.
+</p>
+
+<p>
+With time, I practiced more and more. I also started watching tutorials and reading online resources to improve my skills. Programming became less difficult and more interesting. It improved my logical thinking and problem-solving abilities.
+</p>
+
+<p>
+Overall, my first programming experience was a journey of learning, challenges, and growth. It taught me patience and consistency. Today, I feel more confident and motivated to learn advanced programming concepts in the future.
+</p>
+</div>
+
+<script>
+function toggleArticle(id){
+var x=document.getElementById(id);
+x.style.display=(x.style.display==="block")?"none":"block";
+}
+</script>
+
+</body>
+</html>
