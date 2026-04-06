@@ -1,33 +1,24 @@
 ---
 layout: default
-title: Journey
+title: "My Journey"
 ---
 
-<link rel="stylesheet" href="assets/css/style.css">
+# My Journey at University
 
-<div class="nav">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="contact.html">Contact</a>
-</div>
+Welcome to my journey. Here you can read all my **university life articles**.
 
-<h1>📘 My Journey</h1>
+## 1st Semester Articles
 
-<h2>Semester  1</h2>
-<ul>
-  <li><a href="/first-semester/article1.html">Article 1</a></li>
-  <li><a href="/first-semester/article2.html">Article 2</a></li>
-  <li><a href="/first-semester/article3.html">Article 3</a></li>
-  <li><a href="/first-semester/article4.html">Article 4</a></li>
-  <li><a href="/first-semester/article5.html">Article 5</a></li>
-  <li><a href="/first-semester/article6.html">Article 6</a></li>
-  <li><a href="/first-semester/article7.html">Article 7</a></li>
-</ul>
-<h2>Semester 2</h2>
-<ul>
-<li><a href="/second-semester/article8.html">Article 8</a></li>
-  <li><a href="/second-semester/article9.html">Article 9</a></li>
-  <li><a href="/second-semester/article10.html">Article 10</a></li>
-</ul>
+{% include 1st-semester/article1.html %}
+{% include 1st-semester/article2.html %}
+{% include 1st-semester/article3.html %}
+{% include 1st-semester/article4.html %}
+{% include 1st-semester/article5.html %}
+{% include 1st-semester/article6.html %}
+{% include 1st-semester/article7.html %}
 
-<script src="assets/js/script.js"></script>
+## 2nd Semester Articles
+
+{% include 2nd-semester/article8.html %}
+{% include 2nd-semester/article9.html %}
+{% include 2nd-semester/article10.html %}
