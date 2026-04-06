@@ -1,5 +1,19 @@
-<!-- JOURNEY -->
-<div id="journey" class="hidden">
+<!DOCTYPE html>
+<html>
+<head>
+<title>Journey</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="journey.html">My Journey</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
 
 <div class="folder" onclick="toggle('sem1')">📁 Semester 1</div>
 <div id="sem1" class="hidden">
@@ -20,3 +34,15 @@
 </div>
 
 </div>
+
+<div id="modal" class="modal">
+<div class="modal-content">
+<span class="close" onclick="closeModal()">X</span>
+<div id="articleText"></div>
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
