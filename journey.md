@@ -7,7 +7,7 @@ title: "My Journey"
 
 Welcome to my journey. Here you can read all my **university life articles**.
 
-## 1st Semester Articles
+## 1st Semester
 
 {% include first/article1.html %}
 {% include first/article2.html %}
@@ -17,7 +17,7 @@ Welcome to my journey. Here you can read all my **university life articles**.
 {% include first/article6.html %}
 {% include first/article7.html %}
 
-## 2nd Semester Articles
+## 2nd Semester
 
 {% include second/article8.html %}
 {% include second/article9.html %}
