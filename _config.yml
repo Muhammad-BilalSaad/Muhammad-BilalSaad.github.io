@@ -1,34 +1,29 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "My blog"
+title: " Portfolio"
+author: "BilalSaad"
+description: "My Journey, Blog & Portfolio Website"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
-# Layout
+# Layout Settings
+show_excerpts: false
+show_frame: true
+show_sidebar: false
+show_minimal: false
 
-show_excerpts: true             # show article excerpts instead of archive list on the home page
-show_frame: true                # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
-show_minimal: false             # remove all clutter
+# Navigation Menu (TOP MENU)
+navigation:
+  - {file: "index.html", title: "Home"}
+  - {file: "about.md", title: "About Me"}
+  - {file: "journey.md", title: "My Journey"}
+  - {file: "contact.md", title: "Contact"}
 
-#show_frame: "/assets/images/background.svg"
+# External Links
+external:
+  - {title: Email, icon: envelope, url: "mailto:u1247874@gmail.com"}
+  - {title: GitHub, icon: github, url: "https://github.com/Muhammad-BilalSaad"}
 
-# Menu                          # for available icons see https://fontawesome.com/v5/icons/
-
-navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", sidebaricon: home}
-  - {file: "README.md", sidebaricon: address-card}
-
-external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
-
-comments:
-#  disqus_shortname: ""         # see https://disqus.com
-#  isso_domain: ""              # see https://isso-comments.de
-
+# Plugins
 plugins:
- - jekyll-feed
+  - jekyll-feed
