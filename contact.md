@@ -21,10 +21,4 @@ title: Contact
     <p>Connect with me professionally.</p>
     <a href="https://linkedin.com/in/username" class="btn">LinkedIn</a>
   </div>
-
-  <div class="card">
-    <h3>Portfolio Form</h3>
-    <p>Send me a direct message.</p>
-    <a href="/contact-form.md" class="btn">Message</a>
-  </div>
 </section>
