@@ -3,25 +3,28 @@ layout: default
 title: Contact
 ---
 
-<link rel="stylesheet" href="assets/css/style.css">
+<section class="cards">
+  <div class="card">
+    <h3>Email</h3>
+    <p>Reach me via email.</p>
+    <a href="mailto:example@email.com" class="btn">Send Email</a>
+  </div>
 
-<div class="nav">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="journey.html">Journey</a>
-</div>
+  <div class="card">
+    <h3>GitHub</h3>
+    <p>Check out my projects.</p>
+    <a href="https://github.com/Muhammad-BilalSaad" class="btn">GitHub</a>
+  </div>
 
-<h1>📞 Contact Me</h1>
+  <div class="card">
+    <h3>LinkedIn</h3>
+    <p>Connect with me professionally.</p>
+    <a href="https://linkedin.com/in/username" class="btn">LinkedIn</a>
+  </div>
 
-<div class="inner-card">
-  <p>Email: u1247874@gmail.com</p>
-  <p>GitHub: github.com/Muhammad-BilalSaad</p>
-</div>
-
-<div class="inner-card">
-  <h3>Send Message</h3>
-  <input type="text" placeholder="Muhammad BilalSaad"><br><br>
-  <input type="email" placeholder=""><br>u1247874@gmail.com<br>
-  <textarea placeholder="Message"></textarea><br><br>
-  <button class="read-btn">Send</button>
-</div>
+  <div class="card">
+    <h3>Portfolio Form</h3>
+    <p>Send me a direct message.</p>
+    <a href="/contact-form.md" class="btn">Message</a>
+  </div>
+</section>
