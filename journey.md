@@ -1,19 +1,32 @@
 ---
 layout: default
-title: My Journey
+title: Journey
 ---
 
-<h1>📘 My University Journey</h1>
+<link rel="stylesheet" href="assets/css/style.css">
 
-{% include article1.html %}
-{% include article2.html %}
-{% include article3.html %}
-{% include article4.html %}
-{% include article5.html %}
-{% include article6.html %}
-{% include article7.html %}
-{% include article8.html %}
-{% include article9.html %}
-{% include article10.html %}
+<div class="nav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<h1>📘 My Journey</h1>
+
+<h2>Semester  1</h2>
+
+{% include first/article1.html %}
+{% include first/article2.html %}
+{% include first/article3.html %}
+{% include first/article4.html %}
+{% include first/article5.html %}
+{% include first/article6.html %}
+{% include first/article7.html %}
+
+<h2>Semester 2</h2>
+
+{% include second/article8.html %}
+{% include second/article9.html %}
+{% include second/article10.html %}
 
 <script src="assets/js/script.js"></script>
