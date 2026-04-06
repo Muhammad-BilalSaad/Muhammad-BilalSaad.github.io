@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Article 1</title>
+
+<style>
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  font-family: Arial;
+  padding: 30px;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+}
+h1 { color: #38bdf8; }
+h2 { color: #facc15; }
+.toggle-btn {
+  background: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+</style>
+
+<script>
+function toggleArticle(id){
+  var x = document.getElementById(id);
+  if(x.style.display === "none" || x.style.display === ""){
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+</head>
+
+<body>
+<div class="container">
+
+<h1>My First Days at University</h1>
+
+<button class="toggle-btn" onclick="toggleArticle('a1')">Read Article</button>
+
+<div id="a1" style="display:none;">
+
+<h2>Nervousness in a New Environment</h2>
+<p>
+When I first arrived at university, everything around me felt completely new and unfamiliar. The campus was large, the people were strangers, and the system was very different from what I was used to. I felt nervous attending classes, speaking in front of others, and even starting simple conversations. This nervousness affected my confidence, and at times I doubted myself. However, as days passed, I slowly started understanding the environment and became more comfortable.
+</p>
+
+<h2>Emotional Struggle of Being Away from Home</h2>
+<p>
+Being away from home was one of the most difficult challenges I faced. I missed my family, daily routines, and the emotional support that I always had. There were moments when I felt lonely, especially during quiet times or after a long day. Adjusting to a new place without family was not easy, but it taught me how to manage my emotions and become more independent. Over time, I learned to handle this distance and grow stronger mentally.
+</p>
+
+<h2>Sacrifice for a Better Future</h2>
+<p>
+Coming to university was not just a step forward, but also a big sacrifice. Leaving my comfort zone, facing difficulties, and staying away from loved ones were all part of this journey. Despite the hard conditions, I stayed focused on my goal of building a successful future. These sacrifices motivated me to work harder and not give up. I realized that achieving something meaningful in life always requires patience, dedication, and the courage to face challenges.
+</p>
+
+</div>
+</div>
+</body>
+</html>
