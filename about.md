@@ -17,4 +17,4 @@ I am Muhammad Bilal Saad, a student and aspiring software developer.
 
 ## Achievements
 - Built multiple portfolio projects
-- Contributor to GitHub repositories
+- Contributed to GitHub repositories
