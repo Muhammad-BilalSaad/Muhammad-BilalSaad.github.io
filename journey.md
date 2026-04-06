@@ -7,18 +7,24 @@ title: "My Journey"
 
 Welcome to my journey. Here you can read all my **university life articles**.
 
-## 1st Semester
+<section class="semester-section">
+  <h2>1st Semester</h2>
+  <div class="semester-cards">
+    {% include first/article1.html %}
+    {% include first/article2.html %}
+    {% include first/article3.html %}
+    {% include first/article4.html %}
+    {% include first/article5.html %}
+    {% include first/article6.html %}
+    {% include first/article7.html %}
+  </div>
+</section>
 
-{% include first/article1.html %}
-{% include first/article2.html %}
-{% include first/article3.html %}
-{% include first/article4.html %}
-{% include first/article5.html %}
-{% include first/article6.html %}
-{% include first/article7.html %}
-
-## 2nd Semester
-
-{% include second/article8.html %}
-{% include second/article9.html %}
-{% include second/article10.html %}
+<section class="semester-section">
+  <h2>2nd Semester</h2>
+  <div class="semester-cards">
+    {% include second/article8.html %}
+    {% include second/article9.html %}
+    {% include second/article10.html %}
+  </div>
+</section>
