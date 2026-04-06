@@ -1,0 +1,12 @@
+body{background:#0a0a0a;color:#fff;font-family:Arial;margin:0}
+nav{background:#111;padding:15px}
+nav a{color:#fff;margin:10px;text-decoration:none}
+.container{padding:30px}
+.card{background:#151515;padding:20px;border-radius:10px;margin:10px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+img{width:150px;border-radius:50%}
+.folder{background:#222;padding:10px;margin:10px 0;cursor:pointer}
+.file{margin-left:20px;cursor:pointer}
+.hidden{display:none}
+.modal{position:fixed;width:100%;height:100%;background:#000d;display:none;justify-content:center;align-items:center}
+.modal-content{background:#111;padding:20px}
