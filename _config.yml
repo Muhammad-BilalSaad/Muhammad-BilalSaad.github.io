@@ -1,29 +1,25 @@
-title: " Portfolio"
-author: "BilalSaad"
-description: "My Journey, Blog & Portfolio Website"
-permalink: /:title/
+title: "Muhammad Bilal Saad Blog"
+author: "Muhammad Bilal Saad"
+description: "Personal portfolio and blog"
+baseurl: ""
+url: "https://Muhammad-BilalSaad.github.io"
 lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
-
-# Layout Settings
-show_excerpts: false
-show_frame: true
+permalink: /:title/
 show_sidebar: false
+show_frame: true
+show_excerpts: true
 show_minimal: false
 
-# Navigation Menu (TOP MENU)
 navigation:
-  - {file: "index.html", title: "Home"}
-  - {file: "about.md", title: "About Me"}
-  - {file: "journey.md", title: "My Journey"}
-  - {file: "contact.md", title: "Contact"}
+  - {file: "index.md", sidebaricon: home}
+  - {file: "about.md", sidebaricon: address-card}
+  - {file: "journey.md", sidebaricon: book-open}
+  - {file: "contact.md", sidebaricon: envelope}
 
-# External Links
 external:
-  - {title: Email, icon: envelope, url: "mailto:u1247874@gmail.com"}
-  - {title: GitHub, icon: github, url: "https://github.com/Muhammad-BilalSaad"}
+  - {title: Mail, icon: envelope, url: "mailto:your-email@example.com"}
+  - {title: Github, icon: github, url: "https://github.com/Muhammad-BilalSaad"}
 
-# Plugins
 plugins:
   - jekyll-feed
+  - jekyll-paginate
