@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Article 2</title>
+<!-- SAME CSS + SCRIPT (copy from Article 1) -->
+</head>
+
+<body>
+<div class="container">
+
+<h1>Finding Friendship and Happiness in University Life</h1>
+
+<button class="toggle-btn" onclick="toggleArticle('a2')">Read Article</button>
+
+<div id="a2" style="display:none;">
+
+<h2>Early Friendships and Initial Struggles</h2>
+<p>
+When I joined the university, I first made friends with Ibtasam and then Huzaifa. Their presence made things a little easier for me in the beginning. However, I faced a problem during my hostel room allotment. Even though I made the payment, it failed, and because of this issue, I was not given a proper room. Instead, I was placed in a hall, which was not what I expected and made me feel disappointed.
+</p>
+
+<h2>Patience, Acceptance, and Adjustment</h2>
+<p>
+At that moment, I had no choice but to accept the situation. I had to trust my fate and practice patience. Living in a hall was uncomfortable at first, and it felt like things were not going my way. But instead of complaining, I decided to adjust and stay patient. This phase taught me an important lesson—that sometimes life does not go as planned, and we must stay calm and hopeful.
+</p>
+
+<h2>Unexpected Happiness and Strong Friendships</h2>
+<p>
+With time, things started to change in a positive way. In those same halls, I found some of the best friends of my life. The place that once felt uncomfortable slowly became enjoyable and full of good memories. I began to feel happy and grateful for everything. Now, I truly enjoy my university and hostel life, realizing that sometimes the best things come from unexpected situations.
+</p>
+
+</div>
+</div>
+</body>
+</html>
