@@ -1,12 +1,20 @@
 ---
-layout: default
-title: "About Me"
+layout: page
+title: About Me
 ---
 
 # About Me
+I am Muhammad Bilal Saad, a student and aspiring software developer.
 
-Hello! I am **Muhammad Bilal Saad**, a passionate student and blogger.  
+## Education
+- BSc in Computer Science
 
-I love writing about my **university life, experiences, and personal growth**.  
+## Skills
+- HTML, CSS, JavaScript
+- Python, C#
+- Git & GitHub
+- Jekyll
 
-Stay tuned to my journey and learn from my stories.
+## Achievements
+- Built multiple portfolio projects
+- Contributor to GitHub repositories
