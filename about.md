@@ -1,28 +1,12 @@
 ---
 layout: default
-title: About
+title: "About Me"
 ---
 
-<link rel="stylesheet" href="assets/css/style.css">
+# About Me
 
-<div class="nav">
-  <a href="index.html">Home</a>
-  <a href="journey.html">Journey</a>
-  <a href="contact.html">Contact</a>
-</div>
+Hello! I am **Muhammad Bilal Saad**, a passionate student and blogger.  
 
-<h1>👨‍💻 About Me</h1>
+I love writing about my **university life, experiences, and personal growth**.  
 
-<div class="inner-card">
-  <p>
-    I am Bilal Saad, a passionate student currently pursuing my academic journey in Computer Engineering. Coming from a Pre-Medical background, transitioning into programming and mathematics was challenging for me.
-  </p>
-
-  <p>
-    Despite difficulties, I am continuously learning and improving my skills. My goal is to become a professional developer and build meaningful projects.
-  </p>
-
-  <p>
-    I believe in hard work, patience, and consistency. My journey reflects my struggles, growth, and determination.
-  </p>
-</div>
+Stay tuned to my journey and learn from my stories.
